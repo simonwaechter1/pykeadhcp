@@ -13,6 +13,9 @@ RUN apt-get update \
         && apt-get install \
         -y \
         --no-install-recommends \
+        python3.11=3.11.* \
+        python3-pip=23.* \
+        python3-setuptools=66.* \
         supervisor \
         wget \
         && apt-get clean \
